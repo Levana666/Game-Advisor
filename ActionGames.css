@@ -1,0 +1,139 @@
+body {
+    height: 100vh;
+}
+
+.page-container {
+    display: flex;
+    height: 100%;
+}
+
+h2 {
+    font-family: Georgia, Utopia, Charter, serif;
+    text-decoration: underline;
+    color: mintcream;
+    position: absolute;
+    left: 42%;
+    top: 60px;
+}
+
+p3 {
+    position: absolute;
+    font-size: 1.2em;
+    left: 130px;
+    top: 120px;
+}
+
+p4 {
+    position: absolute;
+    font-size: 1.2em;
+    left: 130px;
+    top: 170px;
+}
+
+p5 {
+    position: absolute;
+    font-size: 1.2em;
+    left: 130px;
+    top: 220px;
+}
+
+p6 {
+    position: absolute;
+    font-size: 1.2em;
+    left: 130px;
+    top: 270px;
+}
+
+p7 {
+    position: absolute;
+    font-size: 1.2em;
+    left: 800px;
+    top: 280px;
+}
+
+p8 {
+    position: absolute;
+    font-size: 1.2em;
+    left: 800px;
+    top: 330px;
+}
+
+p9 {
+    position: absolute;
+    font-size: 1.2em;
+    left: 800px;
+    top: 380px;
+}
+
+p10 {
+    position: absolute;
+    font-size: 1.2em;
+    left: 480px;
+    top: 120px;
+}
+
+p11 {
+    position: absolute;
+    font-size: 1.2em;
+    left: 480px;
+    top: 170px;
+}
+
+p12 {
+    position: absolute;
+    font-size: 1.2em;
+    left: 480px;
+    top: 220px;
+}
+
+p13 {
+    position: absolute;
+    font-size: 1.2em;
+    left: 480px;
+    top: 270px;
+}
+
+p14 {
+    position: absolute;
+    font-size: 1.2em;
+    left: 1150px;
+    top: 280px;
+}
+
+p15 {
+    position: absolute;
+    font-size: 1.2em;
+    left: 1150px;
+    top: 330px;
+}
+
+p16 {
+    position: absolute;
+    font-size: 1.2em;
+    left: 1150px;
+    top: 380px;
+}
+
+p17 {
+    position: absolute;
+    font-size: 1.2em;
+    left: 1100px;
+    top: 550px;
+}
+
+.sidebar {
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    border-right: 3px outset white;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.main-content {
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}

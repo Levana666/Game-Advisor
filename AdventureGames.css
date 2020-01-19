@@ -1,0 +1,106 @@
+body {
+    height: 100vh;
+}
+
+.page-container {
+    display: flex;
+    height: 100%;
+}
+
+h2 {
+    font-family: Georgia, Utopia, Charter, serif;
+    text-decoration: underline;
+    color: mintcream;
+    position: absolute;
+    left: 40%;
+    top: 60px;
+}
+
+p1 {
+    color: mintcream;
+    position: absolute;
+    font-size: 1.5em;
+    left: 285px;
+    top: 13px;
+}
+
+p2 {
+    color: mintcream;
+    position: absolute;
+    font-size: 1.5em;
+    left: 995px;
+    top: 162px;
+}
+
+p3 {
+    position: absolute;
+    font-size: 1.2em;
+    left: 230px;
+    top: 100px;
+}
+
+p8 {
+    position: absolute;
+    font-size: 1.2em;
+    left: 870px;
+    top: 250px;
+}
+
+p9 {
+    position: absolute;
+    font-size: 1.2em;
+    left: 870px;
+    top: 300px;
+}
+
+p10 {
+    position: absolute;
+    font-size: 1.2em;
+    left: 870px;
+    top: 350px;
+}
+
+p11 {
+    position: absolute;
+    font-size: 1.2em;
+    left: 1170px;
+    top: 250px;
+}
+
+p12 {
+    position: absolute;
+    font-size: 1.2em;
+    left: 1170px;
+    top: 300px;
+}
+
+p13 {
+    position: absolute;
+    font-size: 1.2em;
+    left: 1170px;
+    top: 350px;
+}
+
+p14 {
+    position: absolute;
+    font-size: 1.2em;
+    left: 1100px;
+    top: 550px;
+}
+
+.sidebar {
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    border-right: 3px outset white;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.main-content {
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}

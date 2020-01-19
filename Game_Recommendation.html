@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+
+<style>
+    body {
+        background-image: url('dark fantasy 720x320.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    
+    a:visited {
+        color: white;
+        font-size: 20px;
+    }
+</style>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="feature.css">
+    <title>Game_Test</title>
+
+</head>
+
+<body>
+    <div class="Question">
+        <h2>Question1: Do you wanna go on an adventure?<br/></h2>
+    </div>
+    <div class="BodyofQuestion">
+        <form name="iForm" method="post" action="save.php">
+            <label for="ah"></label>
+            <input type="radio" name="aha1" id="ah" value="Yes"> Yes
+            <br>
+            <input type="radio" name="aha1" id="ah" value="No"> No
+            <br>
+        </form>
+    </div>
+
+    <div class="Question">
+        <h2>Question 2: Do you enjoy team cooperation?<br/></h2>
+    </div>
+    <div class="BodyofQuestion">
+        <form name="iForm" method="post" action="save.php">
+            <label for="aha"></label>
+            <input type="radio" name="aha2" id="aha" value="Yes"> Yes
+            <br>
+            <input type="radio" name="aha2" id="aha" value="No"> No
+            <br>
+        </form>
+    </div>
+
+    <div class="Question">
+        <h2>Question 3: Do you enjoy the games that demand quick reaction?<br></h2>
+    </div>
+    <div class="BodyofQuestion">
+        <form name="iForm" method="post" action="save.php">
+            <label for="aha"></label>
+            <input type="radio" name="aha3" id="ahaa" value="Yes"> Yes
+            <br>
+            <input type="radio" name="aha3" id="ahaa" value="No"> No
+            <br>
+        </form>
+    </div>
+    <br>
+
+    <h1 id="result" style="color:white; margin: 4px 130px"></h1>
+
+    <button class="button" onclick="myFunction()">See Your Result</button>
+
+    <script>
+        function myFunction() {
+            var adventurous = document.getElementsByName('aha1');
+            var team = document.getElementsByName('aha2');
+            var reaction = document.getElementsByName('aha3');
+            var firstAnswer;
+            var secondAnswer;
+            var thirdAnswer;
+
+            var judge;
+
+            for (var i = 0, length = adventurous.length; i < length; i++) {
+                if (adventurous[i].checked) {
+                    // do whatever you want with the checked radio
+                    firstAnswer = adventurous[i].value;
+
+                    // only one radio can be logically checked, don't check the rest
+                    break;
+                }
+            }
+            for (var i = 0, length = team.length; i < length; i++) {
+                if (team[i].checked) {
+                    // do whatever you want with the checked radio
+                    secondAnswer = team[i].value;
+
+                    // only one radio can be logically checked, don't check the rest
+                    break;
+                }
+            }
+            for (var i = 0, length = reaction.length; i < length; i++) {
+                if (reaction[i].checked) {
+                    // do whatever you want with the checked radio
+                    third = reaction[i].value;
+
+                    // only one radio can be logically checked, don't check the rest
+                    break;
+                }
+            }
+
+            if (firstAnswer == "Yes") {
+                if (secondAnswer == "Yes") {
+                    document.getElementById('result').innerHTML = "Shooter";
+                    window.open("ShooterGames.html", "name", "height=255,width=250,toolbar=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,modal=yes");
+                } else {
+                    if (thirdAnswer == "Yes") {
+                        document.getElementById('result').innerHTML = "Action";
+                        window.open("ActionGames.html", "name", "height=255,width=250,toolbar=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,modal=yes");
+                    } else {
+                        document.getElementById('result').innerHTML = "Adventure";
+                        window.open("AdventureGames.html", "name", "height=255,width=250,toolbar=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,modal=yes");
+                    }
+                }
+
+            } else {
+                if (secondAnswer == "Yes") {
+                    document.getElementById('result').innerHTML = "Shooter";
+                    window.open("ShooterGames.html", "name", "height=255,width=250,toolbar=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,modal=yes");
+                } else {
+                    document.getElementById('result').innerHTML = "Racing";
+                    window.open("RacingGames.html", "name", "height=255,width=250,toolbar=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,modal=yes");
+                }
+            }
+        }
+    </script>
+
+    <div class="source">
+        <a href="https://static3.scirra.net/images/newstore/products/2688/dark%20fantasy%20720x320.png">link for background image</a>
+    </div>
+
+    <br>
+    <br>
+
+</body>
+
+
+</html>

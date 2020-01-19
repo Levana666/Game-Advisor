@@ -1,0 +1,38 @@
+body {
+    background-color: lightblue;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Question {
+    background-color: rgb(7, 62, 109);
+    opacity: 0.7;
+    color: white;
+    margin: 10px;
+    padding: 8px;
+}
+
+.BodyofQuestion {
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.source {
+    margin: 30px 100px;
+    color: white;
+}
+
+.button {
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    padding: 14px 28px;
+    opacity: 70%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 6px 100px;
+    cursor: pointer;
+}

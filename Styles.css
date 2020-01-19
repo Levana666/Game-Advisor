@@ -1,0 +1,188 @@
+body {
+    height: 100vh;
+    background-image: "background.png";
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: mintcream;
+    position: absolute;
+    left: 150px;
+    top: 100px;
+}
+
+p {
+    color: LightCyan;
+    position: absolute;
+    left: 150px;
+    top: 220px;
+}
+
+.page-container {
+    display: flex;
+    height: 100%;
+}
+
+.main-content {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.card {
+    position: absolute;
+    left: 300px;
+    top: 250px;
+}
+
+.sidebar-image {
+    width: 100%;
+}
+
+.boxed {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 500;
+    right: 310;
+    width: 180px;
+    border: 5px double CornflowerBlue;
+    box-shadow: 5px 5px 5px #888;
+}
+
+
+/* Action Games */
+
+.button1 {
+    position: fixed;
+    bottom: 400;
+    right: 300;
+    box-shadow: 6px 6px 7px 0px #5b5963;
+    background: linear-gradient(to bottom, #0f0d0f 5%, #000000 100%);
+    background-color: #0f0d0f;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Courier New;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 25px;
+    text-decoration: none;
+}
+
+.button1:hover {
+    background: linear-gradient(to bottom, #000000 5%, #0f0d0f 100%);
+    background-color: #000000;
+}
+
+
+/* Adventure Games */
+
+.button2 {
+    position: fixed;
+    bottom: 330;
+    right: 282;
+    box-shadow: 6px 6px 7px 0px #5b5963;
+    background: linear-gradient(to bottom, #0f0d0f 5%, #000000 100%);
+    background-color: #0f0d0f;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Courier New;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 25px;
+    text-decoration: none;
+}
+
+.button2:hover {
+    background: linear-gradient(to bottom, #000000 5%, #0f0d0f 100%);
+    background-color: #000000;
+}
+
+
+/*  Actions Games */
+
+.button3 {
+    position: fixed;
+    bottom: 260;
+    right: 300;
+    box-shadow: 6px 6px 7px 0px #5b5963;
+    background: linear-gradient(to bottom, #0f0d0f 5%, #000000 100%);
+    background-color: #0f0d0f;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Courier New;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 25px;
+    text-decoration: none;
+}
+
+
+/* Action Games */
+
+.button3:hover {
+    background: linear-gradient(to bottom, #000000 5%, #0f0d0f 100%);
+    background-color: #000000;
+}
+
+.button4 {
+    position: fixed;
+    bottom: 190;
+    right: 290;
+    box-shadow: 6px 6px 7px 0px #5b5963;
+    background: linear-gradient(to bottom, #0f0d0f 5%, #000000 100%);
+    background-color: #0f0d0f;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Courier New;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 25px;
+    text-decoration: none;
+}
+
+.button4:hover {
+    background: linear-gradient(to bottom, #000000 5%, #0f0d0f 100%);
+    background-color: #000000;
+}
+
+.button5 {
+    position: fixed;
+    bottom: 170px;
+    left: 150px;
+    box-shadow: 0px 1px 0px 0px #54a3f7;
+    background: linear-gradient(to bottom, #43a4d1 5%, #165c99 100%);
+    background-color: #43a4d1;
+    border-radius: 6px;
+    border: 1px solid #124d77;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #154682;
+}
+
+.Button5:hover {
+    background: linear-gradient(to bottom, #165c99 5%, #43a4d1 100%);
+    background-color: #165c99;
+}
