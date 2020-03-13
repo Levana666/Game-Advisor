@@ -7,4 +7,6 @@ Click on the category you wish to browse and you will be led to a page showing t
 
 If you don't know where to start, take the personalized test to see what category of games you would like the most!
 
+This project was contributed jointly by Xintong Li, Mingyu Liu, Zimeng Wang, Jiaying Cui
+
 ![main page](https://github.com/Levana666/Game-Advisor/blob/master/mainpage.png)
